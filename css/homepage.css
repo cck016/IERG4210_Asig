@@ -1,0 +1,44 @@
+body {
+  padding-top: 54px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container-fluid, row {
+  height: 100%;
+}
+
+.fill {
+  margin-bottom: -9999px;
+  overflow-y: auto;
+}
+
+.card-img-top {
+  height: 20vw;
+  object-fit: contain;
+}
+
+.cart:hover .cart-content {
+  display: block;
+}
+
+.cart-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 205px;
+  padding:10px;
+  right: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
